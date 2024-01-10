@@ -1,0 +1,22 @@
+<h1>Bienvenido, {{user.nombre}}</h1>
+
+{{#if isAdmin}}
+    <h2>Lista de alimentos:</h2>
+    {{#each food}}
+    {{../user.nombre}}
+        <li>
+            {{this.name}} - ${{this.price}}
+        </li>
+    {{/each}}
+{{else}}
+    <p>No tienes permisos para ver esta pagina.</p>
+{{/if}}
+
+{{!-- <div>
+    <h1>Usuario</h1>
+    <p>Nombre: {{user.nombre}}</p>
+    <p>Apellido: {{user.apellido}}</p>
+    <p>Edad: {{user.edad}}</p>
+    <p>Telefono: {{user.telefono}}</p>
+    <p>Email: {{user.email}}</p>
+</div> --}}

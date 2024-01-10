@@ -1,0 +1,10 @@
+[
+  {
+    "nombre": "Ivan",
+    "apellido": "Maciel",
+    "username": "IvanUser",
+    "password": "123456",
+    "salt": "woG27OME5X+03kSmpLdDVCKr66nP0RzS23nchB+4u9IsnRoFwCmcdNO5qaW+2KNMCssegxrhh+iNc5mVeZh+iSPVPQNnyfXzvhGi2H/kz9amcPt3RdB1xCOUdrljLVuUYzKogmJnZLCPSeN+qHuasUu8nogc+U3sh++od9p7jY4=",
+    "newpass": "b06422154976ee9281ea83045da73a895679efafbdb08c207cf889e6017099da"
+  }
+]
